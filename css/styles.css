@@ -1,0 +1,19 @@
+.animal-grid{
+ 
+  display:grid;
+  grid-template-columns: repeat(3,33vw);
+}
+
+
+img {
+  max-width: 100%;
+}
+
+
+.animal-grid div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
