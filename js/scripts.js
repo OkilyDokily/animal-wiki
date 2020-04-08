@@ -9,11 +9,16 @@ $(document).ready(function(){
       $(".animal-grid div").css({
         "height":"auto"
       })
+      $(".giraffe").css({
+        "border": "green solid 1px"
+      })
+
+      $(".giraffe-wiki").show();
     }
     else if (event.target.id === "honeybee"){
 
     }
-    else if (event.target.id == "coati"){
+    else if (event.target.id === "coati"){
 
     }
   })
